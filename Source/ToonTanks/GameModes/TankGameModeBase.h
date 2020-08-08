@@ -19,7 +19,7 @@ private:
 	void HandleGameOver(bool PlayerWon);
 
 public:
-	void ActorDie(AActor* DeadActor);
+	void ActorDied(AActor* DeadActor);
 
 protected:
 	virtual void BeginPlay() override;
